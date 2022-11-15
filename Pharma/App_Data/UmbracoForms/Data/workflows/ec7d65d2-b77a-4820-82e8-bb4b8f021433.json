@@ -1,0 +1,28 @@
+{
+  "id": "ec7d65d2-b77a-4820-82e8-bb4b8f021433",
+  "name": "Send template email to serzhanina_aleks@mail.ru",
+  "form": "e5863025-1bb3-4fcd-aafa-d6ae17faf920",
+  "active": true,
+  "includeSensitiveData": "False",
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": "",
+    "Email": "serzhanina_aleks@mail.ru",
+    "CcEmail": "",
+    "BccEmail": "",
+    "SenderEmail": "",
+    "ReplyToEmail": "",
+    "Subject": "The Form '{form_name}' was submitted"
+  },
+  "sortOrder": 1,
+  "isMandatory": false,
+  "condition": {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "enabled": false,
+    "actionType": "Show",
+    "logicType": "All",
+    "rules": []
+  }
+}

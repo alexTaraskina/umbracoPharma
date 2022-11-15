@@ -1,0 +1,155 @@
+{
+  "name": "Contact",
+  "created": "2022-11-15T19:28:32.2979508+03:00",
+  "pages": [
+    {
+      "fieldSets": [
+        {
+          "caption": null,
+          "sortOrder": 0,
+          "id": "933f4419-9bc1-4b71-bd3f-79b9cdea3d1d",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": null,
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Согласие на обработку персональных данных",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "dataConsent",
+                  "id": "3a56e456-06a2-4d56-9a38-184fd510239c",
+                  "fieldTypeId": "a72c9df9-3847-47cf-afb8-b86773fd12cd",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": "Consent is required to store and process the data in this form.",
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "e597fd8f-c200-4c8f-9e26-5c54cf430ad6",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "AcceptCopy": "Yes, I give permission to store and process my data",
+                    "ShowLabel": ""
+                  },
+                  "preValues": [],
+                  "parsedPreValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Сообщение",
+                  "tooltip": "Можете задать свой вопрос и менеджер свяжется с вами в рабочее время",
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "soobshenie",
+                  "id": "6534c755-fd6b-410d-8cab-7503757c7a64",
+                  "fieldTypeId": "023f09ac-1445-4bcb-b8fa-ab49f33bd046",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "109f6933-af10-47c3-aa5b-2b0d04f78b86",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": "",
+                    "ShowLabel": "",
+                    "AutocompleteAttribute": "",
+                    "NumberOfRows": "2",
+                    "MaximumLength": ""
+                  },
+                  "preValues": [],
+                  "parsedPreValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Электронная почта",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "elektronnayaPochta",
+                  "id": "bf6916a0-8bcf-4a5f-d0d8-0c672fa04919",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$",
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "f2a4e4cb-5078-47f6-915f-4b4764185520",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": "",
+                    "ShowLabel": "",
+                    "MaximumLength": "",
+                    "FieldType": "",
+                    "AutocompleteAttribute": ""
+                  },
+                  "preValues": [],
+                  "parsedPreValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                }
+              ]
+            }
+          ],
+          "condition": null
+        }
+      ],
+      "caption": null,
+      "sortOrder": 0,
+      "id": "ddfec978-2c44-409d-9ab2-e38eb6b381b4",
+      "form": "00000000-0000-0000-0000-000000000000",
+      "buttonCondition": null
+    }
+  ],
+  "id": "e5863025-1bb3-4fcd-aafa-d6ae17faf920",
+  "fieldIndicationType": "MarkMandatoryFields",
+  "indicator": "*",
+  "showValidationSummary": false,
+  "hideFieldValidation": false,
+  "requiredErrorMessage": "Please provide a value for {0}",
+  "invalidErrorMessage": "Please provide a valid value for {0}",
+  "messageOnSubmit": "Thank you",
+  "goToPageOnSubmit": 0,
+  "xPathOnSubmit": null,
+  "manualApproval": false,
+  "storeRecordsLocally": true,
+  "autocompleteAttribute": "",
+  "cssClass": null,
+  "disableDefaultStylesheet": false,
+  "useClientDependency": false,
+  "workflows": [
+    "ec7d65d2-b77a-4820-82e8-bb4b8f021433"
+  ],
+  "datasource": null,
+  "submitLabel": "Submit",
+  "nextLabel": "Next",
+  "prevLabel": "Previous",
+  "folderId": null
+}

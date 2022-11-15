@@ -6,6 +6,7 @@
     var home = (Home)Model.Root();
     var font = home.Font;
     var colorTheme = home.ColorTheme;
+    var backgroundColor = home.Background;
 }
 
 <!doctype html>
@@ -19,10 +20,12 @@
     <meta name="author" content="">
 
     <link rel="stylesheet" href="@Url.Content("~/css/umbraco-starterkit-style.css")" />
+    <link rel="stylesheet" href="~/Static/_fonts.css" />
+    <link rel="stylesheet" href="~/Static/_type-styles.css" />
     @RenderSection("Header", required: false)
 </head>
 
-<body class="frontpage theme-font-@font theme-color-@colorTheme">
+<body class="frontpage theme-color-@colorTheme">
     <div class="mobile-nav">
         <nav class="nav-bar">
             @Html.Partial("~/views/partials/navigation/topNavigation.cshtml")
@@ -60,7 +63,7 @@
         @RenderBody()
     </main>
 
-    <footer class="section--themed">
+    <footer class="section--themed" style="background-color: #@backgroundColor">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 ta-center">

@@ -1,0 +1,89 @@
+﻿@font-face {
+    font-family: 'Inter Thin';
+    font-style: normal;
+    font-weight: 100;
+    font-display: fallback;
+    src: local('Inter Thin');
+    src: url('/fonts/Inter/inter-100.woff2') format('woff2'), url('/fonts/Inter/inter-100.woff') format('woff'), url('/fonts/Inter/inter-100.svg') format('svg'), url('/fonts/Inter/inter-100.eot'), / IE9 Compat Modes / url('/fonts/Inter/inter-100.eot?#iefix') format('embedded-opentype'), / IE6-IE8 / url('/fonts/Inter/inter-100.ttf') format('truetype');
+    unicode-range: U+0020-00FF;
+}
+
+@font-face {
+    font-family: 'Inter ExtraLight';
+    font-style: normal;
+    font-weight: 200;
+    font-display: fallback;
+    src: local('Inter Extra Light');
+    src: url('/fonts/Inter/inter-200.woff2') format('woff2'), url('/fonts/Inter/inter-200.woff') format('woff'), url('/fonts/Inter/inter-200.svg') format('svg'), url('/fonts/Inter/inter-200.eot'), / IE9 Compat Modes / url('/fonts/Inter/inter-200.eot?#iefix') format('embedded-opentype'), / IE6-IE8 / url('/fonts/Inter/inter-200.ttf') format('truetype');
+    unicode-range: U+0020-00FF;
+}
+
+@font-face {
+    font-family: 'Inter Light';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: local('Inter Light');
+    src: url('/fonts/Inter/inter-300.woff2') format('woff2'), url('/fonts/Inter/inter-300.woff') format('woff'), url('/fonts/Inter/inter-300.svg') format('svg'), url('/fonts/Inter/inter-300.eot'), / IE9 Compat Modes / url('/fonts/Inter/inter-300.eot?#iefix') format('embedded-opentype'), / IE6-IE8 / url('/fonts/Inter/inter-300.ttf') format('truetype');
+    unicode-range: U+0020-00FF;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('Inter');
+    src: url('/fonts/Inter/inter-400.woff2') format('woff2'), url('/fonts/Inter/inter-400.woff') format('woff'), url('/fonts/Inter/inter-400.svg') format('svg'), url('/fonts/Inter/inter-400.eot'), / IE9 Compat Modes / url('/fonts/Inter/inter-400.eot?#iefix') format('embedded-opentype'), / IE6-IE8 / url('/fonts/Inter/inter-400.ttf') format('truetype');
+    unicode-range: U+0020-00FF;
+}
+
+@font-face {
+    font-family: 'Inter Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-display: fallback;
+    src: local('Inter Medium');
+    src: url('/fonts/Inter/inter-500.woff2') format('woff2'), url('/fonts/Inter/inter-500.woff') format('woff'), url('/fonts/Inter/inter-500.svg') format('svg'), url('/fonts/Inter/inter-500.eot'), / IE9 Compat Modes / url('/fonts/Inter/inter-500.eot?#iefix') format('embedded-opentype'), / IE6-IE8 / url('/fonts/Inter/inter-500.ttf') format('truetype');
+    unicode-range: U+0020-00FF;
+}
+
+@font-face {
+    font-family: 'Inter SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: local('Inter Semi Bold');
+    src: url('/fonts/Inter/inter-600.woff2') format('woff2'), url('/fonts/Inter/inter-600.woff') format('woff'), url('/fonts/Inter/inter-600.svg') format('svg'), url('/fonts/Inter/inter-600.eot'), / IE9 Compat Modes / url('/fonts/Inter/inter-600.eot?#iefix') format('embedded-opentype'), / IE6-IE8 / url('/fonts/Inter/inter-600.ttf') format('truetype');
+    unicode-range: U+0020-00FF;
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: fallback;
+    src: local('Inter');
+    src: url('/fonts/Inter/inter-700.woff2') format('woff2'), url('/fonts/Inter/inter-700.woff') format('woff'), url('/fonts/Inter/inter-700.svg') format('svg'), url('/fonts/Inter/inter-700.eot'), / IE9 Compat Modes / url('/fonts/Inter/inter-700.eot?#iefix') format('embedded-opentype'), / IE6-IE8 / url('/fonts/Inter/inter-700.ttf') format('truetype');
+    unicode-range: U+0020-00FF;
+}
+
+@font-face {
+    font-family: 'Inter ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-display: fallback;
+    src: local('Inter Extra Bold');
+    src: url('/fonts/Inter/inter-800.woff2') format('woff2'), url('/fonts/Inter/inter-800.woff') format('woff'), url('/fonts/Inter/inter-800.svg') format('svg'), url('/fonts/Inter/inter-800.eot'), / IE9 Compat Modes / url('/fonts/Inter/inter-800.eot?#iefix') format('embedded-opentype'), / IE6-IE8 / url('/fonts/Inter/inter-800.ttf') format('truetype');
+    unicode-range: U+0020-00FF;
+}
+
+@font-face {
+    font-family: 'Inter Black';
+    font-style: normal;
+    font-weight: 900;
+    font-display: fallback;
+    src: local('Inter Black');
+    src: url('/fonts/Inter/inter-900.woff2') format('woff2'), url('/fonts/Inter/inter-900.woff') format('woff'), url('/fonts/Inter/inter-900.svg') format('svg'), url('/fonts/Inter/inter-900.eot'), / IE9 Compat Modes / url('/fonts/Inter/inter-900.eot?#iefix') format('embedded-opentype'), / IE6-IE8 / url('/fonts/Inter/inter-900.ttf') format('truetype');
+    unicode-range: U+0020-00FF;
+}

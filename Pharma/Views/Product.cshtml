@@ -18,9 +18,6 @@
                 <h1>@Model.ProductName</h1>
                 <div class="product-price">@Model.Parent.GetProperty("DefaultCurrency").Value() @Model.Price.ToString("F")</div>
                 <div class="product-teaser">@Model.Description</div>
-                <div class="product-button">
-                    <button class="button button--border--solid">Buy</button>
-                </div>
                 <div class="product-advantages">
                     @if (Model.Features != null)
                     {

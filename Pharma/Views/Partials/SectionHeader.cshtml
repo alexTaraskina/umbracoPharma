@@ -1,5 +1,11 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
-<section class="section section--themed section--header section--content-center-bottom">
+@{
+    Layout = null;
+    // Get basic design settings from the homepage
+    var home = (Home)Model.Root();
+    var backgroundColor = home.Background;
+}
+<section class="section section--themed section--header section--content-center-bottom" style="background-color: #@backgroundColor">
     <div class="section__hero-content">
         <h1 class="no-air">@Model.GetProperty("PageTitle").GetValue()</h1>
     </div>
